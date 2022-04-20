@@ -33,21 +33,21 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-mass
     - r-matrix
     - r-rcpp
     - r-foreach
     - r-haven
     - r-iterators
-    - r-minqa
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
+    - r-mass
     - r-matrix
     - r-rcpp
     - r-foreach
     - r-haven
     - r-iterators
-    - r-minqa
 
 test:
   commands:
