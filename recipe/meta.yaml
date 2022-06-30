@@ -35,7 +35,8 @@ requirements:
     - r-base
     - r-mass
     - r-matrix
-    - r-rcpp
+    - r-rcpp >=1.0.8.3
+    - r-rcpparmadillo
     - r-foreach
     - r-haven
     - r-iterators
@@ -44,7 +45,8 @@ requirements:
     - {{ native }}gcc-libs         # [win]
     - r-mass
     - r-matrix
-    - r-rcpp
+    - r-rcpp >=1.0.8.3
+    - r-rcpparmadillo
     - r-foreach
     - r-haven
     - r-iterators
