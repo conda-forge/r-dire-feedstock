@@ -3,6 +3,7 @@ About r-dire-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dire-feedstock/blob/main/LICENSE.txt)
 
+
 About r-dire
 ------------
 
@@ -11,6 +12,7 @@ Home: https://american-institutes-for-research.github.io/Dire/
 Package license: GPL-2.0-only
 
 Summary: Fit linear models, estimating score distributions for groups of people, following Cohen and Jiang (1999) <doi:10.2307/2669917>. In this model, the response is a latent trait (such as student ability) and raw item responses are combined with item difficulties in an item response theory (IRT) framework to form a density for each unit (student). This latent trait is then integrated out. This software is intended to fit the same models as the existing software 'AM' <http://am.air.org/>.
+
 About r-dire
 ------------
 
